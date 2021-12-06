@@ -1,16 +1,21 @@
 Package: regexcite
-Title: What the Package Does (One Line, Title Case)
+Title: Something with text
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Per",
+           family = "Møldrup-Dalum",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+           email = "dalum@me.com",
+    )
+Description: Convenience functions to make some common tasks with string
+    manipulation and regular expressions a bit easier. But mostly to learn creating packages.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    stringr
